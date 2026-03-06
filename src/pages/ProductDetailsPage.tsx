@@ -31,7 +31,7 @@ const ProductDetailsPage = () => {
               <img
                 src={data.image || "https://via.placeholder.com/600"}
                 alt={data.name}
-                className="max-h-[400px] object-contain"
+                className="max-h-100 object-contain"
               />
             </div>
 
